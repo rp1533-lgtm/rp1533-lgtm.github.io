@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revanth Patil | Portfolio</title>
+    <style>
+        :root {
+            --primary: #003366;
+            --accent: #0056b3;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --text: #282828;
+            --subtext: #555555;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: var(--primary);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-size: 1.15rem;
+            color: var(--subtext);
+            max-width: 750px;
+            margin: 0 auto 20px auto;
+            font-weight: 500;
+        }
+
+        .contact-links a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0 10px;
+        }
+
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--bg);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .skill-category {
+            background: var(--bg);
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .skill-category h3 {
+            font-size: 1rem;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+
+        .skill-category ul {
+            list-style: none;
+        }
+
+        .skill-category li {
+            font-size: 0.95rem;
+            color: var(--text);
+            margin-bottom: 4px;
+        }
+
+        .project-card {
+            border-left: 4px solid var(--accent);
+            background: var(--bg);
+            padding: 20px;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 20px;
+        }
+
+        .project-card:last-child {
+            margin-bottom: 0;
+        }
+
+        .project-card h3 {
+            color: var(--primary);
+            margin-bottom: 5px;
+
+        .project-card .role {
+            font-size: 0.85rem;
+            color: var(--subtext);
+            font-weight: 600;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .project-card p {
+            font-size: 0.95rem;
+            margin-bottom: 12px;
+        }
+
+        .project-card a {
+            display: inline-block;
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-decoration: none;
+        }
+
+        .project-card a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            color: var(--subtext);
+            font-size: 0.85rem;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- HEADER & PERSONAL STATEMENT -->
+        <header>
+            <h1>Revanth Patil</h1>
+            <p class="tagline">Finance student at Rutgers Business School with experience in debt capital markets, financial modeling, and macro analysis preparing for a career in investment banking.</p>
+            <div class="contact-links">
+                <a href="mailto:revanthp13@gmail.com">Email</a> •
+                <a href="https://www.linkedin.com/in/rp13" target="_blank">LinkedIn</a> •
+                <a href="https://github.com" target="_blank">GitHub</a>
+            </div>
+        </header>
+
+        <!-- SKILLS SHOWCASE -->
+        <section id="skills">
+            <h2>Skills Showcase</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Financial & Valuation</h3>
+                    <ul>
+                        <li>Fixed Income Pricing</li>
+                        <li>Debt Structuring</li>
+                        <li>Valuation Modeling</li>
+                        <li>SEC Filings Analysis</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Technical & Analytics</h3>
+                    <ul>
+                        <li>Excel (Financial Modeling)</li>
+                        <li>PowerPoint</li>
+                        <li>Wall Street Prep</li>
+                        <li>HTML / CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Leadership & Operations</h3>
+                    <ul>
+                        <li>Budget Management</li>
+                        <li>Event Operations</li>
+                        <li>Strategic Outreach</li>
+                        <li>Team Coordination</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects">
+            <h2>Featured Projects</h2>
+
+            <div class="project-card">
+                <h3>Hyperscaler $20B Financing Model</h3>
+                <div class="role">IPA Case Competition Winner</div>
+                <p>Structured a $20B financing plan for an 8-year, $200B AI hyperscaler project. Designed a $4B debt and $16B JV hybrid structure that reduced total leverage from 4.64x to 3.97x (staying under the 4.0x credit cap) and priced a 4-tranche bond issuance at a 5.93% blended rate across 10-year to 40-year maturities.</p>
+                <a href="https://github.com" target="_blank">View Project Repository →</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Corporate Debt Pricing & Capital Structure Proposal</h3>
+                <div class="role">Debt Capital Markets Internship</div>
+                <p>Built fair-value pricing models for corporate bond issuances, including Amazon notes priced at 5bps concessions to fair value. Developed a $1.5B 30-year senior unsecured funding proposal for MetLife yielding 6.0–6.2% to optimize long-term debt maturity brackets.</p>
+                <a href="https://github.com" target="_blank">View Pricing Model Code →</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Industrials Earnings & Sector Coverage Reports</h3>
+                <div class="role">Early Bird Market Research</div>
+                <p>Drafted and published 10 research reports tracking industrial sector earnings, SEC filings (10-K, 10-Q, 8-K), and macro developments to deliver clear market analysis for retail and institutional readers.</p>
+                <a href="https://github.com" target="_blank">View Published Reports →</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2026 Revanth Patil | Hosted on GitHub Pages</p>
+        </footer>
+    </div>
+
+</body>
+</html>
