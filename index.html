@@ -41,6 +41,19 @@
             border-radius: 12px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.05);
             margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #ffffff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
         }
 
         h1 {
@@ -127,6 +140,7 @@
         .project-card h3 {
             color: var(--primary);
             margin-bottom: 5px;
+        }
 
         .project-card .role {
             font-size: 0.85rem;
@@ -167,12 +181,13 @@
     <div class="container">
         <!-- HEADER & PERSONAL STATEMENT -->
         <header>
+            <img src="headshot.png" alt="Revanth Patil Headshot" class="profile-img">
             <h1>Revanth Patil</h1>
             <p class="tagline">Finance student at Rutgers Business School with experience in debt capital markets, financial modeling, and macro analysis preparing for a career in investment banking.</p>
             <div class="contact-links">
                 <a href="mailto:revanthp13@gmail.com">Email</a> •
                 <a href="https://www.linkedin.com/in/rp13" target="_blank">LinkedIn</a> •
-                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="https://github.com/rp1533-lgtm" target="_blank">GitHub</a>
             </div>
         </header>
 
@@ -218,21 +233,21 @@
                 <h3>Hyperscaler $20B Financing Model</h3>
                 <div class="role">IPA Case Competition Winner</div>
                 <p>Structured a $20B financing plan for an 8-year, $200B AI hyperscaler project. Designed a $4B debt and $16B JV hybrid structure that reduced total leverage from 4.64x to 3.97x (staying under the 4.0x credit cap) and priced a 4-tranche bond issuance at a 5.93% blended rate across 10-year to 40-year maturities.</p>
-                <a href="https://github.com" target="_blank">View Project Repository →</a>
+                <a href="hyperscaler-financing.pdf" target="_blank">View Project PDF →</a>
             </div>
 
             <div class="project-card">
                 <h3>Corporate Debt Pricing & Capital Structure Proposal</h3>
                 <div class="role">Debt Capital Markets Internship</div>
                 <p>Built fair-value pricing models for corporate bond issuances, including Amazon notes priced at 5bps concessions to fair value. Developed a $1.5B 30-year senior unsecured funding proposal for MetLife yielding 6.0–6.2% to optimize long-term debt maturity brackets.</p>
-                <a href="https://github.com" target="_blank">View Pricing Model Code →</a>
+                <a href="debt-capital-markets.pdf" target="_blank">View Project PDF →</a>
             </div>
 
             <div class="project-card">
                 <h3>Industrials Earnings & Sector Coverage Reports</h3>
                 <div class="role">Early Bird Market Research</div>
                 <p>Drafted and published 10 research reports tracking industrial sector earnings, SEC filings (10-K, 10-Q, 8-K), and macro developments to deliver clear market analysis for retail and institutional readers.</p>
-                <a href="https://github.com" target="_blank">View Published Reports →</a>
+                <a href="industrials-research.pdf" target="_blank">View Project PDF →</a>
             </div>
         </section>
 
